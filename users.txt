@@ -1,0 +1,4 @@
+{"name":"John Doe","age":25}
+
+test requests
+curl -X POST -H "Content-Type: application/json" -d '{"name": "Clark Kent", "age": 10}' http://localhost:3000/users
